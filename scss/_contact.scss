@@ -1,0 +1,51 @@
+// Styling for the contact section
+section#contact {
+  background-color: $gray-900;
+  // background-image: url('../img/map-image.png');
+  // background-image: url('https://images.unsplash.com/photo-1507564215915-3df09846ee75?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c5f6be70754c1c2edd74828197edca37&auto=format&fit=crop&w=2600&q=80');
+  background-image: url('https://images.unsplash.com/photo-1515895057171-3590e85f3c7d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=428e8883e86ba5ef4731ac84607a7329&auto=format&fit=crop&w=2550&q=80');
+  background-repeat: no-repeat;
+  background-position: center;
+  .section-heading {
+    color: $white;
+  }
+  .form-group {
+    margin-bottom: 25px;
+    input,
+    textarea {
+      padding: 20px;
+    }
+    input.form-control {
+      height: auto;
+    }
+    textarea.form-control {
+      height: 248px;
+    }
+  }
+  .form-control:focus {
+    border-color: $primary;
+    box-shadow: none;
+  }
+  ::-webkit-input-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+  :-moz-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    /* Firefox 18- */
+    @include heading-font;
+  }
+  ::-moz-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    /* Firefox 19+ */
+    @include heading-font;
+  }
+  :-ms-input-placeholder {
+    font-weight: 700;
+    color: $gray-400;
+    @include heading-font;
+  }
+}

@@ -1,0 +1,60 @@
+// Styling for the masthead
+header.masthead {
+  text-align: center;
+  color: white;
+  // background-image: url('https://images.unsplash.com/photo-1505811210036-052144988918?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=aa8779fd5d1a123c6e8dfe50db8c4d2c&auto=format&fit=crop&w=2551&q=80');  // new york at night
+  background-image: url('https://images.unsplash.com/photo-1514563229751-01c68026cb49?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=669f41159e8123bfc9a1025209770d1e&auto=format&fit=crop&w=2550&q=80');  // aurora borealis ocean, dark
+  // background-image: url('https://images.unsplash.com/photo-1495969785256-ef465abb22bf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=563c5ac9cbc4ee5935fc774c964c8e2b&auto=format&fit=crop&w=2548&q=80');  // aurora borealis ocean, dark
+  // background-image: url('https://images.unsplash.com/photo-1525166877954-16f07a81119b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b46efe5cc66d6041f24b950614365ab9&auto=format&fit=crop&w=2501&q=80');  // aurora borealis ocean, light
+  // background-image: url('https://images.pexels.com/photos/226721/pexels-photo-226721.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');  // forest road
+  // background-image: url('https://images.unsplash.com/photo-1488822692320-4affd7326e1f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6e71d9451c949eb764e3e05a1e4934d4&auto=format&fit=crop&w=2550&q=80');  // aurora borealis road
+  // background-image: url('https://images.unsplash.com/photo-1449100840062-49e9aca7c8ec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e6718b460b70122eac995a8eb1100677&auto=format&fit=crop&w=2550&q=80');  // aurora borealis blueish
+  // background-image: url('https://images.unsplash.com/photo-1497404787553-c96683ac886a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=007ef270c6b377d8070738b32826331b&auto=format&fit=crop&w=2492&q=80');  // forest with sun coming through
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  @include background-cover;
+  .intro-text {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    .intro-lead-in {
+      font-size: 22px;
+      font-style: italic;
+      line-height: 22px;
+      margin-bottom: 25px;
+      @include serif-font;
+    }
+    .intro-heading {
+      font-weight: 700;
+      line-height: 50px;
+      margin-bottom: 25px;
+      @include heading-font;
+      font-size: 2.5rem !important;
+    }
+    .main-logo {
+      width: 75%;
+    }
+  }
+}
+@media(min-width:768px) {
+  header.masthead {
+    .intro-text {
+      padding-top: 300px;
+      padding-bottom: 200px;
+      .intro-lead-in {
+        font-size: 40px;
+        font-style: italic;
+        line-height: 40px;
+        margin-bottom: 25px;
+        @include serif-font;
+      }
+      .intro-heading {
+        font-size: 75px;
+        font-weight: 700;
+        line-height: 75px;
+        margin-bottom: 50px;
+        @include heading-font;
+      }
+    }
+  }
+}
