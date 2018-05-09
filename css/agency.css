@@ -172,7 +172,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("https://images.unsplash.com/photo-1449100840062-49e9aca7c8ec?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e6718b460b70122eac995a8eb1100677&auto=format&fit=crop&w=2550&q=80");
+  background-image: url("../img/header_bg.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -602,7 +602,7 @@ header.masthead .intro-text .main-logo {
 
 section#contact {
   background-color: #222222;
-  background-image: url("https://images.unsplash.com/photo-1515895057171-3590e85f3c7d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=428e8883e86ba5ef4731ac84607a7329&auto=format&fit=crop&w=2550&q=80");
+  background-image: url("../img/contact_bg.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -626,6 +626,12 @@ section#contact .form-group input.form-control {
 
 section#contact .form-group textarea.form-control {
   height: 248px;
+}
+
+section#contact .form-group p.text-danger {
+  background-color: black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 section#contact .form-control:focus {
