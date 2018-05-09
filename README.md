@@ -5,8 +5,8 @@ Source code for Solvomon ltd. (Solvomon d.o.o.) homepage.
 ------
 
 - Based on [Start Bootstrap - Agency](https://startbootstrap.com/template-overviews/agency/) template.
-- Header image from [Unsplash]().
-- Contact image from [Unsplash]().
+- Header image from by [Scott Rock on Unsplash](https://unsplash.com/@scottrockphoto?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=solvomon).
+- Contact image from by [Fabian Kozdon on Unsplash](https://unsplash.com/photos/5ZeooCGNw3s?utm_source=unsplash&utm_medium=referral&utm_content=solvomon).
 
 ## Development
 
