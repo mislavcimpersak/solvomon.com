@@ -1,4 +1,4 @@
-# [Solvomon.com](https://solvomon.com)
+# ![solvomon.com](/img/color_logo_transparent.png)
 
 Source code for Solvomon ltd. (Solvomon d.o.o.) homepage.
 
