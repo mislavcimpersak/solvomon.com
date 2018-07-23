@@ -1,6 +1,6 @@
 # ![solvomon.com](/img/color_logo_with_background.png)
 
-Source code for Solvomon ltd. (Solvomon d.o.o.) homepage.
+Source code for Solvomon llc. (Solvomon d.o.o.) homepage.
 
 ------
 
