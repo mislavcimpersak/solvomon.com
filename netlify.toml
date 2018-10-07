@@ -9,5 +9,8 @@ ID = "solvomon"
 [[headers]]
   for = "/*"
   [headers.values]
-    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Strict-Transport-Security = "max-age=259200; preload" # one month for now
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "deny"
     X-XSS-Protection = "1; mode=block"
