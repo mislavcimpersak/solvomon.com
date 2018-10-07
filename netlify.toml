@@ -10,7 +10,7 @@ ID = "solvomon"
   for = "/*"
   [headers.values]
     Content-Security-Policy = """
-        default-src 'self';
+        default-src https: 'self';
         font-src 'self' data: https://fonts.googleapis.com https://fonts.gstatic.com;
         style-src 'self' data: https://fonts.googleapis.com https://fonts.gstatic.com;
         script-src 'self' https://www.googletagmanager.com https://cdnjs.cloudflare.com;
