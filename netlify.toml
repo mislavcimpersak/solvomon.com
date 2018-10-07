@@ -12,7 +12,7 @@ ID = "solvomon"
     Content-Security-Policy = """
         default-src https: 'self';
         font-src 'self' data: https://fonts.googleapis.com https://fonts.gstatic.com;
-        style-src 'self' data: https://fonts.googleapis.com https://fonts.gstatic.com;
+        style-src 'self' 'unsafe-inline' data: https://fonts.googleapis.com https://fonts.gstatic.com;
         script-src 'self' https://www.googletagmanager.com;
         """
     Referrer-Policy = "strict-origin-when-cross-origin"
