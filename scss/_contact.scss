@@ -25,6 +25,9 @@ section#contact {
       border-bottom-right-radius: 5px;
     }
   }
+  .btn-contrast {
+    color: $gray-800 !important;
+  }
   .form-control:focus {
     border-color: $primary;
     box-shadow: none;

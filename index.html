@@ -49,7 +49,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+        <a href="#page-top" class="navbar-brand js-scroll-trigger" aria-label="Home">
           <!-- <img class="img-fluid monogram" src="img/monogram_transparent.png" alt="Solvomon"> -->
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -166,28 +166,28 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
+                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name." aria-label="Name">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" name="_replyto" required="required" data-validation-required-message="Please enter your email address.">
+                    <input class="form-control" id="email" type="email" placeholder="Your Email *" name="_replyto" required="required" data-validation-required-message="Please enter your email address." aria-label="E-mail address">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone" name="phone">
+                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone" name="phone" aria-label="Phone">
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" name="message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                    <textarea class="form-control" id="message" placeholder="Your Message *" name="message" required="required" data-validation-required-message="Please enter a message." aria-label="Message"></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
                 <div class="clearfix"></div>
                 <div class="col-lg-12 text-center">
                   <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase btn-contrast" type="submit">Send Message</button>
                 </div>
               </div>
             </form>
@@ -213,22 +213,22 @@
           <div class="col-md-4">
             <ul class="list-inline social-footer social-buttons">
               <li class="list-inline-item">
-                <a href="https://twitter.com/MislavCimpersak">
+                <a href="https://twitter.com/MislavCimpersak" aria-label="Mislav Cimperšak - Twitter">
                   <i class="fa fa-twitter"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://github.com/mislavcimpersak/">
+                <a href="https://github.com/mislavcimpersak/" aria-label="Mislav Cimperšak - GitHub">
                   <i class="fa fa-github"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://stackoverflow.com/users/story/1014508">
+                <a href="https://stackoverflow.com/users/story/1014508" aria-label="Mislav Cimperšak - StackOverflow">
                   <i class="fa fa-stack-overflow"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://www.linkedin.com/in/mislavcimpersak/">
+                <a href="https://www.linkedin.com/in/mislavcimpersak/" aria-label="Mislav Cimperšak - LinkedIn">
                   <i class="fa fa-linkedin"></i>
                 </a>
               </li>
