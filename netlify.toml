@@ -11,9 +11,9 @@ ID = "solvomon"
   [headers.values]
     Content-Security-Policy = """
         default-src https: 'self';
-        font-src 'self' data: https://fonts.googleapis.com https://fonts.gstatic.com;
-        style-src 'self' 'unsafe-inline' data: https://fonts.googleapis.com https://fonts.gstatic.com;
-        script-src 'self' 'unsafe-eval' 'unsafe-inline' https://www.googletagmanager.com https://tagmanager.google.com https://www.google-analytics.com;
+        font-src 'self' data: fonts.googleapis.com fonts.gstatic.com;
+        style-src 'self' 'unsafe-inline' data: fonts.googleapis.com fonts.gstatic.com;
+        script-src 'self' 'unsafe-eval' 'unsafe-inline' www.googletagmanager.com tagmanager.google.com www.google-analytics.com;
         """
     Feature-Policy = """
         accelerometer 'none';
