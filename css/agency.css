@@ -24,6 +24,10 @@ a:hover {
   color: #f9d812 !important;
 }
 
+.text-muted {
+  color: #495057 !important;
+}
+
 h1,
 h2,
 h3,
@@ -632,6 +636,10 @@ section#contact .form-group p.text-danger {
   background-color: black;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
+}
+
+section#contact .btn-contrast {
+  color: #343a40 !important;
 }
 
 section#contact .form-control:focus {
